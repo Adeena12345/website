@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+html,
+body {
+   
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: black;
+
+} body
+img{
+height: 150px;
+  width: 150px;
+  float: right;
+  margin-bottom: 100px;
+  ;
+}
+h1{
+  background-color: #cde7f4;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+}
+h2{
+  color: black; 
+  border: 2px dashed skyblue;
+  border-radius: 10px;
+  width: 300px;
+  font-weight: bolder;
+  text-align: center;
+}
+h3{
+  background-color: #cde7f4;
+  color: white;
+  text-align: cnter;
+  font-size: 30px
+}
+
+  
+p{
+  text-decoration-color: pink;
+  
+}
+
+
+.left_volleyball {
+  display: inline-blockblock; /* Allows margin and padding adjustments */
+  margin: 0; /* No extra margin */
+  padding: 0; /* No extra padding */
+   margin-right: 75%; /* Pushes the element to the right */
+
+}
+
+.columnright {
+  float: right; /* Allows margin and padding adjustments */
+  width: 50%; /* No extra margin */
+  display: table; /* No extra padding */
+  margin-top: -25%; /* Pushes the element to the right */
+}
+.columnleft
+{
+  float: left;
+  width: 50%;
+  display: table;
+}
+div.subjectsbox {
+  border: solid orange 1px;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+div.subjects {
+  border: solid purple 1px;
+  display: table-cell;
+  color: black;
+}
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
